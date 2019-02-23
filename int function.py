@@ -1,0 +1,15 @@
+import math
+a, b = input("Enter Two Number Seprated By Space ").split()
+a = int(a)
+b = float(b)
+
+print(abs(a))
+print(math.ceil(b))
+print(math.exp(a))
+print(math.fabs(a))
+print(math.floor(b))
+print(math.log(a))
+print(math.log10(a))
+print(max(a,b))
+print(min(a,b))
+print(math.modf(b))
